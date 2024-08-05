@@ -87,7 +87,7 @@ let historiaFinal = "";
 
 function mostraPergunta(){
     perguntaAtual = perguntas[atual];
-    caixaPerguntas.textContent = pergunta_atual.enunciado;
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent("");
     mostraAlternativas();
 }
