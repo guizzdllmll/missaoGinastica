@@ -82,6 +82,7 @@ const perguntas = [
     }
 ];
 
+
 let perguntaAtual;
 let historiaFinal = "";
 
