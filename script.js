@@ -74,7 +74,7 @@ const perguntas = [
                 pontos: 1
             },
             {
-                texto: "Um salto com meia pirueta. ,
+                texto: "Um salto com meia pirueta." ,
                 afirmacao: "O salto com meia pirueta foi bem realizado, mas os juízes esperavam mais dificuldade. Pontuação moderada.",
                 pontos: 0
             }
@@ -82,14 +82,14 @@ const perguntas = [
     }
 ];
 
-
+let atual=0
 let perguntaAtual;
 let historiaFinal = "";
 
 function mostraPergunta(){
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent("");
+    caixaAlternativas.textContent"";
     mostraAlternativas();
 }
 
